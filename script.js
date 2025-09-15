@@ -88,8 +88,8 @@ const cube = n => n * n * n;
 console.log("cube(3)=", cube(3));
 
 // Task 7.1 — var vs let scope
-{   var a = 1;   // function-scoped (or global if not in a function)
-    let b = 2;   // block-scoped
+{   var a = 1;
+    let b = 2;
     console.log("inside block:", a, "b:", b);
 }
 console.log("outside block a:", a);
